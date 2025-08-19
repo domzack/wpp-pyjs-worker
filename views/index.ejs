@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Criar Sessão WPPConnect</title>
+</head>
+
+<body>
+    <h1>Criar Sessão</h1>
+    <form id="sessionForm">
+        <label for="session_name">Nome da Sessão:</label>
+        <select id="session_name" name="session_name" required>
+            <% sessionNames.forEach(function(name) { %>
+                <option value="<%= name %>">
+                    <%= name %>
+                </option>
+                <% }); %>
+                    <option value="__new__">Criar nova sessão...</option>
+        </select>
+        <input type="text" id="newSessionInput" name="new_session_name" placeholder="Novo nome da sessão"
+            style="display:none;" />
+        <button type="submit">Criar</button>
+    </form>
+    <button id="closeSessionBtn" style="display:none;">Encerrar Sessão</button>
+    <div id="qrcode"></div>
+    <div id="status"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const form = document.getElementById('sessionForm');
+        const closeBtn = document.getElementById('closeSessionBtn');
+        const qrcodeDiv = document.getElementById('qrcode');
+        const statusDiv = document.getElementById('status');
+        const select = document.getElementById('session_name');
+        const newSessionInput = document.getElementById('newSessionInput');
+        let socket;
+        let sessionName;
+        let qrTimer;
+
+        select.addEventListener('change', function () {
+            if (select.value === '__new__') {
+                newSessionInput.style.display = 'inline-block';
+                newSessionInput.required = true;
+            } else {
+                newSessionInput.style.display = 'none';
+                newSessionInput.required = false;
+            }
+        });
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            sessionName = select.value === '__new__' ? newSessionInput.value : select.value;
+
+            form.querySelector('button[type="submit"]').disabled = true;
+
+            socket = io();
+            socket.emit('create-session', { sessionName });
+
+            function startQrCountdown() {
+                clearInterval(qrTimer);
+                let timeLeft = 60;
+                statusDiv.innerText = `Tempo restante para leitura do QR Code: ${timeLeft}s`;
+                qrTimer = setInterval(() => {
+                    timeLeft--;
+                    statusDiv.innerText = `Tempo restante para leitura do QR Code: ${timeLeft}s`;
+                    if (timeLeft <= 0) {
+                        clearInterval(qrTimer);
+                        statusDiv.innerText = 'QR Code expirado! Clique em "Criar" para gerar novamente.';
+                        qrcodeDiv.innerHTML = '';
+                        closeBtn.style.display = 'none';
+                    }
+                }, 1000);
+            }
+
+            socket.on('qrcode', function (qrCodeImg) {
+                console.log(sessionName, ` | QR Code recebido para a sessão`);
+                qrcodeDiv.innerHTML = `<img src="${qrCodeImg}" alt="QR Code">`;
+                closeBtn.style.display = 'inline-block';
+                startQrCountdown();
+            });
+
+            socket.on('status', function (status) {
+                console.log(sessionName, ` | Status recebido:`, status);
+                statusDiv.innerText = 'Status: ' + status;
+                closeBtn.style.display = 'inline-block';
+                form.querySelector('button[type="submit"]').disabled = false;
+                if (
+                    status === 'inChat' ||
+                    status === 'autocloseCalled' ||
+                    status === 'browserClose' ||
+                    status === 'qrReadError'
+                ) {
+                    qrcodeDiv.innerHTML = '';
+                    clearInterval(qrTimer);
+                    if (
+                        status === 'autocloseCalled' ||
+                        status === 'browserClose' ||
+                        status === 'qrReadError'
+                    ) {
+                        socket.disconnect();
+                    }
+                }
+            });
+
+            socket.on('message', function (message) {
+                console.log(sessionName, ` | Mensagem recebida:`, message);
+
+                const { body, type, from, sender } = message;
+                const remetente = sender.shortName || sender.pushname || from;
+                const isGroup = message.from.endsWith('@g.us') ? true : false;
+
+                if (type === 'chat' && !isGroup) {
+                    statusDiv.innerText = `Mensagem de ${remetente}: ${body}`;
+                }
+            });
+
+            socket.on('error', function (data) {
+                console.error(sessionName, ` | Erro recebido:`, data.error);
+                statusDiv.innerText = 'Erro: ' + data.error;
+                form.querySelector('button[type="submit"]').disabled = false;
+                qrcodeDiv.innerHTML = '';
+                closeBtn.style.display = 'none';
+                clearInterval(qrTimer);
+            });
+        });
+
+        closeBtn.addEventListener('click', function () {
+            if (sessionName && socket) {
+                socket.emit('close-session', { sessionName });
+                qrcodeDiv.innerHTML = '';
+                statusDiv.innerText = 'Sessão encerrada!';
+                closeBtn.style.display = 'none';
+                clearInterval(qrTimer);
+            }
+        });
+    </script>
+</body>
+
+</html>

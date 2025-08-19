@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aguardando QR Code</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <h1>Aguardando QR Code...</h1>
+    <div id="qrcode"></div>
+    <div id="status"></div>
+    <script>
+        const socket = io();
+
+        socket.on('qrcode', function (qrCodeImg) {
+            document.getElementById('qrcode').innerHTML = `<img src="${qrCodeImg}" alt="QR Code">`;
+        });
+
+        socket.on('status', function (status) {
+            document.getElementById('status').innerText = 'Status: ' + status;
+        });
+    </script>
+</body>
+
+</html>

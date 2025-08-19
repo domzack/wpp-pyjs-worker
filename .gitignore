@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+/tokens
+__pycache__
+.env
+/chromium
+.vscode
