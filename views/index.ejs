@@ -3,10 +3,143 @@
 
 <head>
     <title>Criar Sessão WPPConnect</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #00c3ff 0%, #ffff1c 100%);
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            color: #222;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 8px #fff9;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.95);
+            max-width: 400px;
+            margin: 30px auto 10px auto;
+            padding: 30px 40px 20px 40px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        label {
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 6px;
+        }
+
+        select,
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #bbb;
+            font-size: 1em;
+            transition: border 0.2s;
+        }
+
+        select:focus,
+        input[type="text"]:focus {
+            border: 1.5px solid #00c3ff;
+            outline: none;
+        }
+
+        button[type="submit"],
+        #closeSessionBtn {
+            background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+            color: #222;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 0;
+            font-size: 1.1em;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #00c3ff44;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        button[type="submit"]:hover,
+        #closeSessionBtn:hover {
+            background: linear-gradient(90deg, #ffff1c 0%, #00c3ff 100%);
+            transform: scale(1.04);
+        }
+
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto 10px auto;
+            min-height: 120px;
+            max-width: 320px;
+        }
+
+        #qrcode img {
+            border-radius: 12px;
+            box-shadow: 0 4px 24px #00c3ff44;
+            border: 2px solid #00c3ff;
+            width: 220px;
+            height: 220px;
+            animation: pulse 1.2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 #00c3ff44;
+            }
+
+            70% {
+                box-shadow: 0 0 24px 12px #00c3ff22;
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 #00c3ff44;
+            }
+        }
+
+        #status {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 18px auto 0 auto;
+            color: #222;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            padding: 10px 0;
+            max-width: 350px;
+            box-shadow: 0 2px 8px #00c3ff22;
+        }
+
+        @media (max-width: 600px) {
+            form {
+                max-width: 95vw;
+                padding: 18px 8vw 12px 8vw;
+            }
+
+            #qrcode img {
+                width: 140px;
+                height: 140px;
+            }
+
+            #status {
+                font-size: 1em;
+                max-width: 95vw;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Criar Sessão</h1>
+    <h1>✨ Criar Sessão WPPConnect ✨</h1>
     <form id="sessionForm">
         <label for="session_name">Nome da Sessão:</label>
         <select id="session_name" name="session_name" required>

@@ -2,11 +2,9 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const path = require('path')
 const http = require('http')
-const Wpp = require('@wppconnect-team/wppconnect')
+const wpp = require('@wppconnect-team/wppconnect')
 const routes = require('./routes')
 const cors = require('cors')
-const fs = require('fs')
-const chromeLauncher = require('chrome-launcher')
 
 const app = express()
 const server = http.createServer(app)
@@ -81,7 +79,6 @@ io.on('connection', (socket) => {
 server.listen(3000, () => { console.log('Servidor rodando em http://localhost:3000') })
 
 async function getWppSession(sessionName, cb_events) {
-    const wpp = require('@wppconnect-team/wppconnect')
     const chromePaths = await require('chrome-launcher').Launcher.getInstallations()
     const chromePath = chromePaths.length > 0 ? chromePaths[0] : null
     return new Promise((resolve, reject) => {
