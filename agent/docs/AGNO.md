@@ -6,21 +6,6 @@ _Gerado de: C:\mygits\wpp\agent\docs\agno_
 
 ## agents__agent-state.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -38,89 +23,11 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__audio-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -138,89 +45,11 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__context-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -238,89 +67,11 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__eval-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -338,69 +89,6 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -421,10 +109,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 finance\_agent.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -597,22 +281,6 @@ python finance_agent.py
 
 ## agents__image-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
-
 ```
 from agno.agent import Agent
 from agno.models.anthropic import Claude
@@ -629,89 +297,11 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__memory-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -729,89 +319,11 @@ reasoning_agent = Agent(
     markdown=True,
 )
 ```
-
-Watch the reasoning finance agent in action
-
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__multimodal-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -830,88 +342,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__observability-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -930,88 +366,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__rag-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1030,88 +390,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__reasoning-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1130,88 +414,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__storage-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1230,88 +438,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__testing-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1330,88 +462,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__tools-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1430,68 +486,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -1664,21 +659,6 @@ python social_media_agent.py
 
 ## agents__vector-db-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1697,88 +677,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## agents__video-agent.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -1797,68 +701,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -2197,21 +1040,6 @@ O Agno registra qual modelo um agente usou para que possamos priorizar atualiza�
 
 ## applications__agent-api.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2230,88 +1058,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## applications__agent-cli.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2330,88 +1082,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## applications__fastapi-server.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2430,88 +1106,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## applications__streamlit-dashboard.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2530,88 +1130,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## evals__eval-memory.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2630,88 +1154,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## evals__eval-performance.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2730,88 +1178,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## evals__eval-storage.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2830,88 +1202,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## evals__eval-tools.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -2930,68 +1226,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -6529,21 +4764,6 @@ Replace the tools of the agent.
 
 ## reference_document-reader__document-reader.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -6562,88 +4782,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## reference_embedders__embedder.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -6662,88 +4806,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## reference_knowledge__knowledge.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -6762,68 +4830,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -6925,21 +4932,6 @@ The Model class is the base class for all models in Agno. It provides common fun
 
 ## reference_rerankers__reranker.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -6958,88 +4950,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## reference_storage__storage.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7058,68 +4974,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -7270,21 +5125,6 @@ The team supports reasoning capabilities:
 
 ## reference_workflows-v2__workflow-v2.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7303,68 +5143,7 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
@@ -7396,21 +5175,6 @@ Evaluate, monitor and improve your Agents.](/evals)
 
 ## streamlit-apps__streamlit-finance.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7429,88 +5193,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## streamlit-apps__streamlit-multimodal.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7529,88 +5217,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## streamlit-apps__streamlit-research.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7629,88 +5241,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## teams__team-collaboration.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7729,88 +5265,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## teams__team-coordination.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7829,88 +5289,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## teams__team-finance.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -7929,88 +5313,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## teams__team-multimodal.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8029,88 +5337,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## teams__team-research.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8129,88 +5361,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows-v2__workflow-v2-finance.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8229,88 +5385,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows-v2__workflow-v2-intro.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8329,88 +5409,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows-v2__workflow-v2-multimodal.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8429,88 +5433,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows-v2__workflow-v2-research.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8529,88 +5457,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-basic.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8629,88 +5481,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-finance.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8729,88 +5505,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-memory.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8829,88 +5529,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-multimodal.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -8929,88 +5553,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-research.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -9029,88 +5577,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-storage.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -9129,88 +5601,12 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
 ---
 
 ## workflows__workflow-tools.md
 
-Engineers and researchers use Agno to build:
-
-* **Level 1:** Agents with tools and instructions ([example](/introduction/agents#level-1%3A-agents-with-tools-and-instructions)).
-* **Level 2:** Agents with knowledge and storage ([example](/introduction/agents#level-2%3A-agents-with-knowledge-and-storage)).
-* **Level 3:** Agents with memory and reasoning ([example](/introduction/agents#level-3%3A-agents-with-memory-and-reasoning)).
-* **Level 4:** Agent Teams that can reason and collaborate ([example](/introduction/multi-agent-systems#level-4%3A-agent-teams-that-can-reason-and-collaborate)).
-* **Level 5:** Agentic Workflows with state and determinism ([example](/introduction/multi-agent-systems#level-5%3A-agentic-workflows-with-state-and-determinism)).
-
-**Example:** Level 1 Reasoning Agent that uses the YFinance API to answer questions:
-
-Reasoning Finance Agent
-
-Copy
-
-Ask AI
 
 ```
 from agno.agent import Agent
@@ -9229,66 +5625,5 @@ reasoning_agent = Agent(
 )
 ```
 
-Watch the reasoning finance agent in action
 
-[](https://mintlify.s3.us-west-1.amazonaws.com/agno/videos/reasoning_finance_agent.mp4)
-
-# [​](#getting-started) Getting Started
-
-If you’re new to Agno, learn how to build your [first Agent](/introduction/agents), chat with it on the [playground](/introduction/playground) and [monitor](/introduction/monitoring) it on [app.agno.com](https://app.agno.com).
-
-[## Your first Agents
-
-Learn how to build Agents with Agno](/introduction/agents)[## Agent Playground
-
-Chat with your Agents using a beautiful Agent UI](introduction/playground)[## Agent Monitoring
-
-Monitor your Agents on [agno.com](https://app.agno.com)](introduction/monitoring)
-
-After that, dive deeper into the [concepts below](/introduction#dive-deeper) or explore the [examples gallery](/examples) to build real-world applications with Agno.
-
-# [​](#why-agno%3F) Why Agno?
-
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
-
-* **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-* **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-* **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-* **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-* **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-* **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-* **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-* **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-* **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-* **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-# [​](#dive-deeper) Dive deeper
-
-Agno is a battle-tested framework with a state of the art reasoning and multi-agent architecture, read the following guides to learn more:
-
-[## Agents
-
-Learn how to build lightning fast Agents.](/agents)[## Teams
-
-Build autonomous multi-agent teams.](/teams)[## Models
-
-Use any model, any provider, no lock-in.](/models)[## Tools
-
-100s of tools to extend your Agents.](/tools)[## Reasoning
-
-Make Agents “think” and “analyze”.](/reasoning)[## Knowledge
-
-Give Agents domain-specific knowledge.](/knowledge)[## Vector Databases
-
-Store and search your knowledge base.](/vectordb)[## Storage
-
-Persist Agent session and state in a database.](/storage)[## Memory
-
-Remember user details and session summaries.](/agents/memory)[## Embeddings
-
-Generate embeddings for your knowledge base.](/embedder)[## Workflows
-
-Deterministic, stateful, multi-agent workflows.](/workflows)[## Evals
-
-Evaluate, monitor and improve your Agents.](/evals)
 
