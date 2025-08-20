@@ -12,23 +12,23 @@
   </a>
 </div>
 <div align="center">
-  <a href="https://docs.agno.com">📚 Documentation</a> &nbsp;|&nbsp;
-  <a href="https://docs.agno.com/examples/introduction">💡 Examples</a> &nbsp;|&nbsp;
-  <a href="https://github.com/agno-agi/agno/stargazers">🌟 Star Us</a>
+  <a href="https://docs.agno.com">📚 Documentação</a> &nbsp;|&nbsp;
+  <a href="https://docs.agno.com/examples/introduction">💡 Exemplos</a> &nbsp;|&nbsp;
+  <a href="https://github.com/agno-agi/agno/stargazers">🌟 Dê uma estrela</a>
 </div>
 
-## What is Agno?
+## O que é Agno?
 
-[Agno](https://docs.agno.com) is a full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.
+[Agno](https://docs.agno.com) é um framework full-stack para construir Sistemas Multi-Agente com memória, conhecimento e raciocínio.
 
-Use Agno to build the 5 levels of Agentic Systems:
-- Level 1: Agents with tools and instructions.
-- Level 2: Agents with knowledge and storage.
-- Level 3: Agents with memory and reasoning.
-- Level 4: Agent Teams that can reason and collaborate.
-- Level 5: Agentic Workflows with state and determinism.
+Use o Agno para construir os 5 níveis de Sistemas Agênticos:
+- Nível 1: Agentes com ferramentas e instruções.
+- Nível 2: Agentes com conhecimento e armazenamento.
+- Nível 3: Agentes com memória e raciocínio.
+- Nível 4: Equipes de Agentes que podem raciocinar e colaborar.
+- Nível 5: Workflows Agênticos com estado e determinismo.
 
-Example: Level 1 Reasoning Agent that uses the YFinance API to answer questions:
+Exemplo: Agente de Raciocínio Nível 1 que usa a API YFinance para responder perguntas:
 
 ```python reasoning_finance_agent.py
 from agno.agent import Agent
@@ -49,38 +49,38 @@ reasoning_agent = Agent(
 
 https://github.com/user-attachments/assets/4ef27ba6-a781-4fb0-b49c-bfd838123c83
 
-## Get Started
+## Como começar
 
-If you're new to Agno, read the documentation to build your [first Agent](https://docs.agno.com/introduction/agents), chat with it on the [playground](https://docs.agno.com/introduction/playground) and monitor it on [agno.com](https://docs.agno.com/introduction/monitoring).
+Se você é novo no Agno, leia a documentação para construir seu [primeiro Agente](https://docs.agno.com/introduction/agents), converse com ele no [playground](https://docs.agno.com/introduction/playground) e monitore no [agno.com](https://docs.agno.com/introduction/monitoring).
 
-After that, checkout the [Examples Gallery](https://docs.agno.com/examples) and build real-world applications with Agno.
+Depois disso, confira a [Galeria de Exemplos](https://docs.agno.com/examples) e construa aplicações do mundo real com Agno.
 
-## Why Agno?
+## Por que Agno?
 
-Agno will help you build best-in-class, highly-performant agentic systems, saving you hours of research and boilerplate. Here are some key features that set Agno apart:
+O Agno ajuda a construir sistemas agênticos de alta qualidade e alto desempenho, economizando horas de pesquisa e boilerplate. Aqui estão alguns recursos que diferenciam o Agno:
 
-- **Model Agnostic**: Agno provides a unified interface to 23+ model providers, no lock-in.
-- **Highly performant**: Agents instantiate in **~3μs** and use **~6.5Kib** memory on average.
-- **Reasoning is a first class citizen**: Reasoning improves reliability and is a must-have for complex autonomous agents. Agno supports 3 approaches to reasoning: Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
-- **Natively Multi-Modal**: Agno Agents are natively multi-modal, they accept text, image, audio and video as input and generate text, image, audio and video as output.
-- **Advanced Multi-Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with reasoning, memory, and shared context.
-- **Built-in Agentic Search**: Agents can search for information at runtime using 20+ vector databases. Agno provides state-of-the-art Agentic RAG, **fully async and highly performant.**
-- **Built-in Memory & Session Storage**: Agents come with built-in `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
-- **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
-- **Pre-built FastAPI Routes**: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
-- **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
+- **Agnóstico ao modelo**: fornece uma interface unificada para 23+ provedores de modelos, sem lock-in.
+- **Altamente performático**: Agentes instanciam em **~3μs** e usam **~6.5Kib** de memória em média.
+- **Raciocínio como primeira classe**: raciocínio melhora a confiabilidade; Agno suporta 3 abordagens: Reasoning Models, `ReasoningTools` ou nossa abordagem customizada de `chain-of-thought`.
+- **Nativamente multimodal**: Agentes Agno aceitam texto, imagem, áudio e vídeo como entrada e geram texto, imagem, áudio e vídeo como saída.
+- **Arquitetura avançada multi-agente**: Agno fornece uma arquitetura líder de mercado (**Agent Teams**) com raciocínio, memória e contexto compartilhado.
+- **Busca Agêntica embutida**: Agentes podem buscar informações em tempo de execução usando 20+ bancos de dados vetoriais. Agno oferece RAG Agêntico de ponta, **totalmente assíncrono e de alto desempenho.**
+- **Memória & Armazenamento de Sessão integrados**: Drivers de `Storage` e `Memory` embutidos proporcionam memória de longo prazo e armazenamento de sessão aos agentes.
+- **Saídas Estruturadas**: Agentes podem retornar respostas totalmente tipadas usando saídas estruturadas do modelo ou `json_mode`.
+- **Rotas FastAPI prontas**: Após construir seus agentes, sirva-os usando rotas FastAPI pré-construídas. 0 a produção em minutos.
+- **Monitoramento**: monitore sessões de agentes e desempenho em tempo real em [agno.com](https://app.agno.com).
 
-## Installation
+## Instalação
 
 ```shell
 pip install -U agno
 ```
 
-## Example - Reasoning Agent
+## Exemplo — Agente de Raciocínio
 
-Let's build a Reasoning Agent to get a sense of Agno's capabilities.
+Vamos construir um Agente de Raciocínio para entender as capacidades do Agno.
 
-Save this code to a file: `reasoning_agent.py`.
+Salve este código em um arquivo: `reasoning_agent.py`.
 
 ```python
 from agno.agent import Agent
@@ -108,7 +108,7 @@ agent.print_response(
 )
 ```
 
-Then create a virtual environment, install dependencies, export your `ANTHROPIC_API_KEY` and run the agent.
+Depois, crie um ambiente virtual, instale dependências, exporte sua `ANTHROPIC_API_KEY` e execute o agente.
 
 ```shell
 uv venv --python 3.12
@@ -121,13 +121,13 @@ export ANTHROPIC_API_KEY=sk-ant-api03-xxxx
 python reasoning_agent.py
 ```
 
-We can see the Agent is reasoning through the task, using the `ReasoningTools` and `YFinanceTools` to gather information. This is how the output looks like:
+Podemos ver que o Agente está raciocinando sobre a tarefa, usando `ReasoningTools` e `YFinanceTools` para coletar informações. Veja como a saída se parece:
 
 https://github.com/user-attachments/assets/bbb99955-9848-49a9-9732-3e19d77b2ff8
 
-## Example - Multi Agent Teams
+## Exemplo — Equipes Multi-Agente
 
-Agents are the atomic unit of work, and work best when they have a narrow scope and a small number of tools. When the number of tools grows beyond what the model can handle or you need to handle multiple concepts, use a team of agents to spread the load.
+Agentes são a unidade atômica de trabalho e funcionam melhor quando têm um escopo estreito e poucas ferramentas. Quando o número de ferramentas cresce além do que o modelo pode lidar ou você precisa tratar múltiplos conceitos, use uma equipe de agentes para distribuir a carga.
 
 ```python
 from agno.agent import Agent
@@ -169,7 +169,7 @@ agent_team = Team(
 agent_team.print_response("What's the market outlook and financial performance of AI semiconductor companies?", stream=True)
 ```
 
-Install dependencies and run the Agent team:
+Instale dependências e execute a equipe de agentes:
 
 ```shell
 pip install duckduckgo-search yfinance
@@ -177,30 +177,91 @@ pip install duckduckgo-search yfinance
 python agent_team.py
 ```
 
-[View this example in the cookbook](./cookbook/getting_started/05_agent_team.py)
+[Veja este exemplo no cookbook](./cookbook/getting_started/05_agent_team.py)
 
-## Performance
+## Workflows
 
-At Agno, we're obsessed with performance. Why? because even simple AI workflows can spawn thousands of Agents. Scale that to a modest number of users and performance becomes a bottleneck. Agno is designed for building high performance agentic systems:
+### O que são Workflows
+Workflows (nível 5) são orquestrações determinísticas de Agents e Steps que mantêm estado, checkpoints e regras de retry/branching. Eles permitem construir aplicações agênticas com fluxo de trabalho previsível, reexecutável e observável.
 
-- Agent instantiation: ~3μs on average
-- Memory footprint: ~6.5Kib on average
+### Como funcionam
+- Cada Workflow é composto por passos (steps) que podem ser Agents, funções ou tarefas discretas.
+- O estado do Workflow é persistido em um driver de Storage (ex.: Redis, Postgres, S3) para permitir retomar/re-tentar e auditoria.
+- Workflows suportam condicionais, dependências entre steps, retries e timeouts.
+- Determinismo: ao usar inputs e checkpoints imutáveis, o Workflow pode ser reexecutado para obter o mesmo resultado (útil para reprodutibilidade e depuração).
+- Observabilidade: logs, métricas e checkpoints tornam possível monitorar a execução e inspecionar o estado histórico.
 
-> Tested on an Apple M4 Mackbook Pro.
+### Como usar (visão geral)
+1. Defina tasks/Agents pequenas com responsabilidade única.
+2. Crie um Workflow com steps ordenados e dependências explícitas.
+3. Escolha um driver de Storage para persistência de estado.
+4. Configure success_criteria, timeouts e políticas de retry.
+5. Execute o Workflow de forma síncrona ou assíncrona e monitore via painel ou logs.
 
-While an Agent's run-time is bottlenecked by inference, we must do everything possible to minimize execution time, reduce memory usage, and parallelize tool calls. These numbers may seem trivial at first, but our experience shows that they add up even at a reasonably small scale.
+### Exemplo (ilustrativo)
+> Observação: o snippet abaixo é um exemplo de alto nível. Consulte a documentação oficial (docs.agno.com) para a API exata.
 
-### Instantiation time
+```python
+from agno.workflow import Workflow, Step
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
 
-Let's measure the time it takes for an Agent with 1 tool to start up. We'll run the evaluation 1000 times to get a baseline measurement.
+# Agents (pequenas responsabilidades)
+fetch_agent = Agent(name="fetch", role="Coletar dados", model=OpenAIChat(id="gpt-4o"), tools=[])
+analyze_agent = Agent(name="analyze", role="Analisar dados", model=OpenAIChat(id="gpt-4o"))
 
-You should run the evaluation yourself on your own machine, please, do not take these results at face value.
+# Definição do Workflow
+wf = Workflow(
+    id="report_workflow",
+    steps=[
+        Step(id="fetch", run=fetch_agent),
+        Step(id="analyze", run=analyze_agent, depends_on=["fetch"]),
+        Step(id="format", run=lambda ctx: f"# Report\n\n{ctx['analyze'].result}", depends_on=["analyze"]),
+    ],
+    state_store="redis://localhost:6379/0",
+    deterministic=True,
+    max_retries=2,
+)
+
+# Executar
+result = wf.run({"ticker": "NVDA"})
+print(result.output)
+```
+
+### Boas práticas
+- Mantenha steps pequenos e idempotentes.
+- Use storage persistente para checkpoints e retomada.
+- Defina timeouts e políticas de retry explícitas.
+- Teste cada step isoladamente (testes unitários) e o Workflow de ponta a ponta (testes de integração).
+- Instrumente logs e métricas para monitoramento em produção.
+
+### Solução de problemas
+- Para retomar execuções, use o ID do Workflow e o estado persistido.
+- Inspecione checkpoints e logs para identificar onde ocorreu a falha.
+- Habilite verbose/debug em ambientes de teste para capturar o raciocínio completo dos Agents.
+
+## Desempenho
+
+No Agno, somos obcecados por desempenho. Por quê? Porque mesmo fluxos de IA simples podem gerar milhares de agentes. Ao escalar para um número modesto de usuários, o desempenho vira um gargalo. O Agno é projetado para construir sistemas agênticos de alto desempenho:
+
+- Instanciação de agente: ~3μs em média
+- Uso de memória: ~6.5Kib em média
+
+> Testado em um Apple M4 MacBook Pro.
+
+Enquanto o tempo de execução de um agente é limitado pela inferência, devemos minimizar o tempo de execução, reduzir uso de memória e paralelizar chamadas de ferramentas. Esses números podem parecer triviais no início, mas nossa experiência mostra que se acumulam mesmo em escala moderada.
+
+### Tempo de instanciação
+
+Vamos medir o tempo necessário para iniciar um Agente com 1 ferramenta. Executaremos a avaliação 1000 vezes para obter uma linha de base.
+
+Você deve rodar a avaliação em sua própria máquina; não aceite esses resultados sem verificar.
 
 ```shell
-# Setup virtual environment
+# Setup do ambiente virtual
 ./scripts/perf_setup.sh
 source .venvs/perfenv/bin/activate
-# OR Install dependencies manually
+# OU Instale dependências manualmente
 # pip install openai agno langgraph langchain_openai
 
 # Agno
@@ -210,58 +271,58 @@ python evals/performance/instantiation_with_tool.py
 python evals/performance/other/langgraph_instantiation.py
 ```
 
-> The following evaluation is run on an Apple M4 Mackbook Pro. It also runs as a Github action on this repo.
+> A avaliação acima é executada em um Apple M4 MacBook Pro. Também roda como GitHub Action neste repositório.
 
-LangGraph is on the right, **let's start it first and give it a head start**.
+LangGraph está à direita; **vamos iniciá-lo primeiro e dar uma vantagem**.
 
-Agno is on the left, notice how it finishes before LangGraph gets 1/2 way through the runtime measurement, and hasn't even started the memory measurement. That's how fast Agno is.
+Agno está à esquerda — note como termina antes do LangGraph atingir metade do tempo de execução e antes de iniciar a medição de memória. É assim que o Agno é rápido.
 
 https://github.com/user-attachments/assets/ba466d45-75dd-45ac-917b-0a56c5742e23
 
-### Memory usage
+### Uso de memória
 
-To measure memory usage, we use the `tracemalloc` library. We first calculate a baseline memory usage by running an empty function, then run the Agent 1000x times and calculate the difference. This gives a (reasonably) isolated measurement of the memory usage of the Agent.
+Para medir uso de memória usamos a biblioteca `tracemalloc`. Primeiro calculamos uma linha de base executando uma função vazia, depois executamos o Agente 1000x e calculamos a diferença. Isso fornece uma medida (razoável) isolada do uso de memória do Agente.
 
-We recommend running the evaluation yourself on your own machine, and digging into the code to see how it works. If we've made a mistake, please let us know.
+Recomendamos executar a avaliação em sua própria máquina e inspecionar o código para entender como funciona. Se encontrarmos erro, por favor informe.
 
-### Conclusion
+### Conclusão
 
-Agno agents are designed for performance and while we do share some benchmarks against other frameworks, we should be mindful that accuracy and reliability are more important than speed.
+Agentes do Agno são projetados para desempenho; embora compartilhemos benchmarks contra outros frameworks, devemos lembrar que precisão e confiabilidade são mais importantes que velocidade.
 
-Given that each framework is different and we won't be able to tune their performance like we do with Agno, for future benchmarks we'll only be comparing against ourselves.
+Como cada framework é diferente e não poderemos otimizar outros frameworks como fazemos com o Agno, em benchmarks futuros iremos comparar apenas com nós mesmos.
 
-## Complete Documentation Index
+## Índice completo da documentação
 
-For LLMs and AI assistants to understand and navigate Agno's complete documentation, we provide an [LLMs.txt](https://docs.agno.com/llms.txt) or [LLMs-Full.txt](https://docs.agno.com/llms-full.txt) file.
+Para LLMs e assistentes de IA entenderem e navegar pela documentação completa do Agno, fornecemos um arquivo [LLMs.txt](https://docs.agno.com/llms.txt) ou [LLMs-Full.txt](https://docs.agno.com/llms-full.txt).
 
-This file is specifically formatted for AI systems to efficiently parse and reference our documentation.
+Esse arquivo é formatado especificamente para sistemas de IA analisarem e referenciaram nossa documentação de forma eficiente.
 
-### Cursor Setup
+### Configuração do Cursor
 
-When building Agno agents, using Agno documentation as a source in Cursor is a great way to speed up your development.
+Ao construir agentes Agno, usar a documentação do Agno como fonte no Cursor pode acelerar seu desenvolvimento.
 
-1. In Cursor, go to the "Cursor Settings" menu.
-2. Find the "Indexing & Docs" section.
-3. Add `https://docs.agno.com/llms-full.txt` to the list of documentation URLs.
-4. Save the changes.
+1. No Cursor, abra o menu "Cursor Settings".
+2. Encontre a seção "Indexing & Docs".
+3. Adicione `https://docs.agno.com/llms-full.txt` à lista de URLs de documentação.
+4. Salve as alterações.
 
-Now, Cursor will have access to the Agno documentation.
+Agora o Cursor terá acesso à documentação do Agno.
 
-## Documentation, Community & More examples
+## Documentação, comunidade e mais exemplos
 
 - Docs: <a href="https://docs.agno.com" target="_blank" rel="noopener noreferrer">docs.agno.com</a>
 - Cookbook: <a href="https://github.com/agno-agi/agno/tree/main/cookbook" target="_blank" rel="noopener noreferrer">Cookbook</a>
-- Community forum: <a href="https://community.agno.com/" target="_blank" rel="noopener noreferrer">community.agno.com</a>
+- Fórum da comunidade: <a href="https://community.agno.com/" target="_blank" rel="noopener noreferrer">community.agno.com</a>
 - Discord: <a href="https://discord.gg/4MtYHHrgA8" target="_blank" rel="noopener noreferrer">discord</a>
 
-## Contributions
+## Contribuições
 
-We welcome contributions, read our [contributing guide](https://github.com/agno-agi/agno/blob/main/CONTRIBUTING.md) to get started.
+Aceitamos contribuições — leia nosso [guia de contribuição](https://github.com/agno-agi/agno/blob/main/CONTRIBUTING.md) para começar.
 
-## Telemetry
+## Telemetria
 
-Agno logs which model an agent used so we can prioritize updates to the most popular providers. You can disable this by setting `AGNO_TELEMETRY=false` in your environment.
+O Agno registra qual modelo um agente usou para que possamos priorizar atualizações para os provedores mais populares. Você pode desativar isso definindo `AGNO_TELEMETRY=false` no seu ambiente.
 
 <p align="left">
-  <a href="#top">⬆️ Back to Top</a>
+  <a href="#top">⬆️ Voltar ao topo</a>
 </p>
