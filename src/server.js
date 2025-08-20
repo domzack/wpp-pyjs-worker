@@ -41,7 +41,14 @@ io.on('connection', (socket) => {
         if (existingSession) {
             existingSession.client.isConnected().then(isConnected => {
                 cb_events.status(isConnected ? 'connected' : 'disconnected')
-                if (isConnected) { existingSession.client.onMessage(message => cb_events.message(message)) }
+                if (isConnected) {
+                    existingSession.client.onMessage(message => cb_events.message(message))
+                    existingSession.client.onStateChange(state => {
+                        cb_events.status(state)
+                        console.log(sessionName, ' | State changed:', state)
+                    })
+                }
+
             }).catch((error) => cb_events.error(error))
             return
         }
@@ -49,6 +56,13 @@ io.on('connection', (socket) => {
         const WppSession = getWppSession(sessionName, cb_events)
 
         WppSession.then((client) => {
+
+            client.onMessage(message => cb_events.message(message))
+            client.onStateChange(state => {
+                cb_events.status(state)
+                console.log(sessionName, ' | State changed:', state)
+            })
+
             wpp_list.push({ sessionName, client })
             socket.emit('session-created', { sessionName })
             console.log(sessionName, ' | Session created successfully')
@@ -100,7 +114,9 @@ async function getWppSession(sessionName, cb_events) {
                 ignoreHTTPSErrors: true
             }
         })
-            .then((client) => { resolve(client) })
+            .then((client) => {
+                resolve(client)
+            })
             .catch((error) => { reject(error) })
     })
 }

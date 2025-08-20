@@ -2,8 +2,6 @@ from PIL import Image
 import socketio
 import base64
 from io import BytesIO
-import qrcode
-import threading
 import sys
 import matplotlib.pyplot as plt  # Adicione este import
 import queue
