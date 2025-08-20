@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 import os
 
-# URL base da documentação
+# Base da documentação
 BASE_URL = "https://docs.agno.com/examples"
 
-# Estrutura completa da documentação
+# Estrutura das seções e páginas
 sections = {
     "getting-started": [
         "introduction",
@@ -80,13 +80,13 @@ sections = {
     "evals": ["eval-performance", "eval-memory", "eval-tools", "eval-storage"],
 }
 
-# Pasta onde os arquivos Markdown serão salvos
-OUTPUT_DIR = "agno_docs_markdown"
+# Pasta de saída
+OUTPUT_DIR = "agno_docs_mdx_content"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-# Função para baixar e converter cada página
-def fetch_and_convert(section, page):
+# Função para extrair e salvar conteúdo da div .mdx-content
+def extract_mdx_content(section, page):
     url = f"{BASE_URL}/{section}/{page}"
     try:
         response = requests.get(url, timeout=10)
@@ -96,28 +96,20 @@ def fetch_and_convert(section, page):
         return
 
     soup = BeautifulSoup(response.text, "html.parser")
+    mdx_div = soup.find("div", class_="mdx-content")
 
-    # Título da página
-    title_tag = soup.find("title")
-    title = title_tag.text.strip() if title_tag else page.replace("-", " ").title()
-
-    # Conteúdo principal
-    content_div = soup.find("main") or soup.find("article") or soup.body
-    if not content_div:
-        print(f"⚠️ Conteúdo não encontrado em {url}")
+    if not mdx_div:
+        print(f"⚠️ .mdx-content não encontrada em {url}")
         return
 
-    # Converter HTML para Markdown
-    markdown = f"# {title}\n\n" + md(str(content_div), heading_style="ATX")
-
-    # Nome do arquivo
+    markdown = md(str(mdx_div), heading_style="ATX")
     filename = os.path.join(OUTPUT_DIR, f"{section}__{page}.md")
     with open(filename, "w", encoding="utf-8") as f:
         f.write(markdown)
-    print(f"✅ {section}/{page} convertido com sucesso!")
+    print(f"✅ {section}/{page} salvo com sucesso!")
 
 
-# Executar para todas as seções e páginas
+# Loop por todas as páginas
 for section, pages in sections.items():
     for page in pages:
-        fetch_and_convert(section, page)
+        extract_mdx_content(section, page)
