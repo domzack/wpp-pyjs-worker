@@ -228,14 +228,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -245,10 +237,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai yfinance agno
 ```
@@ -257,10 +245,6 @@ pip install openai yfinance agno
 
 Set environment variables
 
-Copy
-
-Ask AI
-
 ```
 export OPENAI_API_KEY=****
 ```
@@ -268,10 +252,6 @@ export OPENAI_API_KEY=****
 4
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python finance_agent.py
@@ -503,10 +483,6 @@ Key capabilities:
 
 social\_media\_agent.py
 
-Copy
-
-Ask AI
-
 ```
 from textwrap import dedent
 
@@ -590,14 +566,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -607,10 +575,6 @@ source .venv/bin/activate
 
 Set your API key
 
-Copy
-
-Ask AI
-
 ```
 export OPENAI_API_KEY=****
 ```
@@ -618,10 +582,6 @@ export OPENAI_API_KEY=****
 3
 
 Set your X credentials
-
-Copy
-
-Ask AI
 
 ```
 export X_CONSUMER_KEY=****
@@ -635,10 +595,6 @@ export X_BEARER_TOKEN=****
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai tweepy agno
 ```
@@ -646,10 +602,6 @@ pip install openai tweepy agno
 5
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python social_media_agent.py
@@ -1244,10 +1196,6 @@ Example prompts to try:
 
 agent\_context.py
 
-Copy
-
-Ask AI
-
 ```
 import json
 from textwrap import dedent
@@ -1316,14 +1264,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -1333,10 +1273,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai httpx agno
 ```
@@ -1344,10 +1280,6 @@ pip install openai httpx agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_context.py
@@ -1367,10 +1299,6 @@ Key features:
 ## [​](#code) Code
 
 agent\_session.py
-
-Copy
-
-Ask AI
 
 ```
 import json
@@ -1474,14 +1402,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -1491,10 +1411,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai sqlalchemy agno
 ```
@@ -1502,10 +1418,6 @@ pip install openai sqlalchemy agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_session.py
@@ -1527,10 +1439,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 agent\_state.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -1600,14 +1508,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -1617,10 +1517,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -1628,10 +1524,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_state.py
@@ -1658,10 +1550,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 agent\_team.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -1789,14 +1677,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -1806,10 +1686,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai duckduckgo-search yfinance agno
 ```
@@ -1817,10 +1693,6 @@ pip install openai duckduckgo-search yfinance agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_team.py
@@ -1843,10 +1715,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 agent\_with\_knowledge.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -1939,14 +1807,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -1956,10 +1816,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai lancedb tantivy pypdf duckduckgo-search agno
 ```
@@ -1967,10 +1823,6 @@ pip install openai lancedb tantivy pypdf duckduckgo-search agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_with_knowledge.py
@@ -1993,10 +1845,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 agent\_with\_storage.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -2133,14 +1981,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2150,10 +1990,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai lancedb tantivy pypdf duckduckgo-search sqlalchemy agno
 ```
@@ -2161,10 +1997,6 @@ pip install openai lancedb tantivy pypdf duckduckgo-search sqlalchemy agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_with_storage.py
@@ -2186,10 +2018,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 agent\_with\_tools.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -2254,14 +2082,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2271,10 +2091,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai duckduckgo-search agno
 ```
@@ -2282,10 +2098,6 @@ pip install openai duckduckgo-search agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python agent_with_tools.py
@@ -2306,10 +2118,6 @@ Example audio interactions to try:
 ## [​](#code) Code
 
 audio\_agent.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -2387,14 +2195,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2404,10 +2204,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai requests agno
 ```
@@ -2415,10 +2211,6 @@ pip install openai requests agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python audio_agent.py
@@ -2439,10 +2231,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 basic\_agent.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -2493,14 +2281,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2510,10 +2290,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -2521,10 +2297,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python basic_agent.py
@@ -2547,10 +2319,6 @@ Some ideas for your own tools:
 ## [​](#code) Code
 
 custom\_tools.py
-
-Copy
-
-Ask AI
 
 ```
 import json
@@ -2624,14 +2392,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2641,10 +2401,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai httpx agno
 ```
@@ -2652,10 +2408,6 @@ pip install openai httpx agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python custom_tools.py
@@ -2683,10 +2435,6 @@ Example scenarios:
 ## [​](#code) Code
 
 human\_in\_the\_loop.py
-
-Copy
-
-Ask AI
 
 ```
 import json
@@ -2794,14 +2542,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2811,10 +2551,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -2822,10 +2558,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python human_in_the_loop.py
@@ -2854,10 +2586,6 @@ Example images to try:
 ## [​](#code) Code
 
 image\_agent.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -2952,14 +2680,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -2969,10 +2689,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai duckduckgo-search agno
 ```
@@ -2980,10 +2696,6 @@ pip install openai duckduckgo-search agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python image_agent.py
@@ -3006,10 +2718,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 image\_generation.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -3072,14 +2780,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -3089,10 +2789,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -3100,10 +2796,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python image_generation.py
@@ -3120,10 +2812,6 @@ The examples build on each other, introducing new concepts and capabilities prog
 
 Create a virtual environment:
 
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -3131,19 +2819,11 @@ source .venv/bin/activate
 
 Install the required dependencies:
 
-Copy
-
-Ask AI
-
 ```
 pip install openai duckduckgo-search yfinance lancedb tantivy pypdf requests exa-py newspaper4k lxml_html_clean sqlalchemy agno
 ```
 
 Export your OpenAI API key:
-
-Copy
-
-Ask AI
 
 ```
 export OPENAI_API_KEY=your_api_key
@@ -3215,10 +2895,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 research\_agent.py
-
-Copy
-
-Ask AI
 
 ```
 from datetime import datetime
@@ -3325,14 +3001,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -3342,10 +3010,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai exa-py agno
 ```
@@ -3353,10 +3017,6 @@ pip install openai exa-py agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python research_agent.py
@@ -3387,10 +3047,6 @@ Example research topics to try:
 ## [​](#code) Code
 
 research\_workflow.py
-
-Copy
-
-Ask AI
 
 ```
 import json
@@ -3805,14 +3461,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -3822,10 +3470,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 openai duckduckgo-search newspaper4k lxml_html_clean sqlalchemy agno
 ```
@@ -3833,10 +3477,6 @@ openai duckduckgo-search newspaper4k lxml_html_clean sqlalchemy agno
 3
 
 Run the workflow
-
-Copy
-
-Ask AI
 
 ```
 python research_workflow.py
@@ -3855,10 +3495,6 @@ This example shows how to retry a function call if it fails or you do not like t
 ## [​](#code) Code
 
 retry\_functions.py
-
-Copy
-
-Ask AI
 
 ```
 from typing import Iterator
@@ -3900,14 +3536,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -3917,10 +3545,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -3928,10 +3552,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python retry_functions.py
@@ -3957,10 +3577,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 structured\_output.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -4106,14 +3722,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -4123,10 +3731,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -4134,10 +3738,6 @@ pip install openai agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python structured_output.py
@@ -4169,10 +3769,6 @@ Agent: *Recalls previous memories about John*
 ## [​](#code) Code
 
 user\_memories.py
-
-Copy
-
-Ask AI
 
 ```
 import json
@@ -4338,14 +3934,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -4355,10 +3943,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai sqlalchemy agno
 ```
@@ -4366,10 +3950,6 @@ pip install openai sqlalchemy agno
 3
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python user_memories.py
@@ -4392,10 +3972,6 @@ Example prompts to try:
 ## [​](#code) Code
 
 video\_generation.py
-
-Copy
-
-Ask AI
 
 ```
 from textwrap import dedent
@@ -4458,14 +4034,6 @@ Create a virtual environment
 
 Open the `Terminal` and create a python virtual environment.
 
-Mac
-
-Windows
-
-Copy
-
-Ask AI
-
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -4475,10 +4043,6 @@ source .venv/bin/activate
 
 Install libraries
 
-Copy
-
-Ask AI
-
 ```
 pip install openai agno
 ```
@@ -4487,10 +4051,6 @@ pip install openai agno
 
 Set environment variables
 
-Copy
-
-Ask AI
-
 ```
 export MODELS_LAB_API_KEY=****
 ```
@@ -4498,10 +4058,6 @@ export MODELS_LAB_API_KEY=****
 4
 
 Run the agent
-
-Copy
-
-Ask AI
 
 ```
 python video_generation.py
