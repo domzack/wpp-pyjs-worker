@@ -1,3 +1,9 @@
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
+from agno.playground import Playground, serve_playground_app
+
+from agno.storage.sqlite import SqliteStorage
+
 import openai
 from dotenv import load_dotenv
 import os
@@ -5,13 +11,6 @@ import os
 load_dotenv("./.env")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
-
-from agno.agent import Agent
-from agno.models.openai import OpenAIChat
-from agno.playground import Playground, serve_playground_app
-
-from agno.storage.sqlite import SqliteStorage
-
 
 storage = SqliteStorage(table_name="history", db_file="./db/agent_domsweet.db")
 

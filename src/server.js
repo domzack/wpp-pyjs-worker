@@ -28,7 +28,46 @@ let wpp_list = []
 
 io.on('connection', (socket) => {
 
+    socket.on('send-message', ({ message, to }) => {
+        const sessionName = socket.sessionName
+        const existingSession = wpp_list.find(wpp => wpp.sessionName === sessionName)
+        console.log(`Enviando mensagem para ${to} na sessão ${sessionName}:`, message);
+
+        if (existingSession && existingSession.client) {
+            // Antes de enviar, verifique se o cliente está conectado e a página está ativa
+            existingSession.client.isConnected().then(isConnected => {
+                if (!isConnected) {
+                    socket.emit('message-error', { to, error: 'Cliente não está conectado. Recarregue a sessão.' })
+                    return
+                }
+                // Tente enviar a mensagem e trate erros de frame detached
+                existingSession.client.sendText(to, message)
+                    .then(() => {
+                        console.log(`Mensagem enviada para ${to}: ${message}`);
+                        socket.emit('message-sent', { to, message })
+                    })
+                    .catch((error) => {
+                        // Se for erro de frame detached, tente reiniciar a sessão
+                        if (error.message && error.message.includes('detached Frame')) {
+                            console.error(`Frame detached detectado. Reiniciando sessão ${sessionName}...`);
+                            socket.emit('message-error', { to, error: 'Sessão do WhatsApp ficou inativa. Tente fechar e abrir novamente.' })
+                            // Opcional: aqui você pode tentar fechar e reabrir a sessão automaticamente
+                        } else {
+                            console.error(`Erro ao enviar mensagem para ${to}:`, error);
+                            socket.emit('message-error', { to, error: error.message })
+                        }
+                    })
+            }).catch((error) => {
+                socket.emit('message-error', { to, error: 'Erro ao verificar conexão do cliente.' })
+            })
+        } else {
+            socket.emit('session-error', { sessionName, error: 'Sessão não encontrada ou cliente não conectado' })
+        }
+    })
+
     socket.on('create-session', ({ sessionName }) => {
+
+        socket.sessionName = sessionName
 
         const cb_events = {
             qrCode: (base64Qrimg) => { socket.emit('qrcode', base64Qrimg) },

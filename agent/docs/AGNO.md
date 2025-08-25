@@ -1908,7 +1908,7 @@ def recipe_agent(user: str = "user"):
             2. Structure your responses clearly:
                - Brief introduction or context
                - Main content (recipe, explanation, or history)
-               - Pro tips or cultural insights
+               - Pro tips ou cultural insights
                - Encouraging conclusion
             3. For recipes, include:
                - List of ingredients with possible substitutions

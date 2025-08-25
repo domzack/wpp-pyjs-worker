@@ -6,6 +6,9 @@ import sys
 import matplotlib.pyplot as plt  # Adicione este import
 import queue
 
+from agent_lanchonete import processar_mensagem_whatsapp  # Importe aqui
+
+
 # Cria uma instância do cliente Socket.IO
 sio = socketio.Client()
 
@@ -39,7 +42,21 @@ def on_status(data):
 
 @sio.on("message")
 def on_message(data):
-    print("Mensagem recebida:", data)
+    # Espera que data seja um dict com id, name, shortname, body
+
+    remetente = data.get("from")
+    sender = data.get("sender")
+    shortname = sender.get("shortName") if sender else "_undefined_"
+    body = data.get("body")
+
+    if remetente.endswith("@c.us"):
+        print(f"\nMensagem recebida de {remetente} ({shortname})")
+        print("Mensagem recebida:", body)
+        print("----------\n")
+
+        resposta = processar_mensagem_whatsapp(remetente, shortname, body)
+        sio.emit("send-message", {"message": resposta, "to": remetente})
+        print(f"Atendente: {resposta}")
 
 
 @sio.on("error")
